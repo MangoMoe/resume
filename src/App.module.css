@@ -1,3 +1,15 @@
+/* // TODO all styles are in this css module (imported as javascript object) */
+/* TODO react app builder */
+/* TODO zeit.co (its free, rate limited) for static hosting, point to github site
+setup github integration, chose resume repo
+make new project from home screen, create from existing code
+builds and runs it 
+can configure domains
+automatically builds and deploys on push to github repository*/
+/* netlify, hiroku, other hosting services (github.io, byu's domain) */
+/* TODO you can make a direct resume in github.io and its schnazzy but maybe not what you want */
+/* TODO look at readme and github repo for links and wiki and howto */
+/* TODO look at material ui theme provider (search it) */
 .Resume {
   display: flex;
   flex-direction: column;
@@ -78,6 +90,7 @@
   border-top: 1px solid black;
 }
 
+/* TODO this is for mobile */
 @media screen and (max-width: 700px) {
   .Header {
     flex-direction: column;
@@ -102,6 +115,8 @@
   }
 }
 
+/* TODO this is for printing */
+/* it detects if the browser is printing and reformats it accordingly */
 @media print {
   @page {
     margin: 1.5cm;

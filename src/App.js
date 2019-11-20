@@ -54,6 +54,7 @@ const Section = ({ section }) => (
 
 function App() {
   return (
+    // TODO use this to change themes, for example try darkTheme
     <ThemeProvider theme={lightTheme}>
       <CssBaseline />
       <div className={styles.Resume}>

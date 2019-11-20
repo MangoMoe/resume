@@ -1,24 +1,25 @@
 import React from 'react'
 
+// TODO lookup JSX, its kind of like html in your javascript code
 // JSX is supported in most places in this template in place of strings
 const resume = {
   header: {
-    name: '{first and last name}',
+    name: 'Dallin Clayton',
     links: [
       {
-        href: 'mailto:{email address}',
+        href: 'mailto:dallin.clayton@gmail.com',
         icon: 'far fa-envelope',
-        text: '{email address}',
+        text: 'dallin.clayton@gmail.com',
       },
       {
-        href: 'https://github.com/{github username}',
+        href: 'https://github.com/MangoMoe',
         icon: 'fab fa-github',
-        text: 'github.com/{github username}',
+        text: 'github.com/MangoMoe',
       },
       {
-        href: 'https://linkedin.com/in/{linkedIn url}',
+        href: 'https://linkedin.com/in/dallinclayton',
         icon: 'fab fa-linkedin',
-        text: 'linkedin.com/in/{linkedIn url}',
+        text: 'linkedin.com/in/dallinclayton',
       },
     ],
   },
@@ -29,6 +30,7 @@ const resume = {
     '{current position} at {current company}',
     'Skills: {comma separated list of skills}'
   ],
+  // TODO duplicate these to make more
   sections: [
     {
       title: 'Education',
